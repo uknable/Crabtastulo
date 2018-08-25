@@ -17,7 +17,7 @@ public class GameEnd : MonoBehaviour
             gameSuccess = 1;
             Debug.Log("HIT");
             Invoke("EndGame", endDelay);
-            Debug.Log("Complete");
+            Debug.Log("Completo");
         }
     }
 
