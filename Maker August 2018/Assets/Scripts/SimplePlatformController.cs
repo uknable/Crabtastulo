@@ -18,16 +18,13 @@ public class SimplePlatformController : MonoBehaviour {
     private bool grounded = false;
     private Animator anim;
     private Rigidbody2D rb2d;
-
-
-    // Use this for initialization
+    
     void Awake () 
     {
         anim = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
     }
     
-    // Update is called once per frame
     void Update () 
     {
         grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
@@ -66,7 +63,6 @@ public class SimplePlatformController : MonoBehaviour {
             jump = false;
         }
     }
-
 
     void Flip()
     {
