@@ -29,7 +29,7 @@ TagManager:
   - Enemies
   - Pickups
   - Ground
-  - 
+  - Textures
   - 
   - 
   - 
@@ -66,4 +66,7 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 149272721
+    locked: 0
+  - name: Textures
+    uniqueID: 1804421031
     locked: 0
